@@ -1,6 +1,13 @@
 (function($){
   $(function(){
 
+  	var tags = "ALERT Amazon AWS APNs C C++ CSS Data Mining Firebase HTML Hyperspectral Image Analysis Janus WebRTC Gateway Java JavaScript Joomla JSP JsSIP Kamailio Machine Learning Material Design Node.js Northeastern University NVidia CUDA OpenCart PHP SIP sipML5 Software Engineering Twitter Bootstrap UML VoIP WebRTC WordPress XML".split(' ');
+    var tagCloud = $('#tag-cloud');
+
+  	tags.forEach(function(tag){
+  		tagCloud.append('<div class="chip">' + tag + '</div>');
+  	})
+
     $('.button-collapse').sideNav();
 	$('.scrollspy').scrollSpy();
 
