@@ -7,7 +7,7 @@
   		+ 'Materialize,XML'
 
 	var tags = tags.split(',');
-    var tagCloud = $('#tag-cloud');
+    var tagCloud = $('#skills-tag-cloud');
 
   	tags.forEach(function(tag){
   		tagCloud.append('<div class="chip">' + tag + '</div>');
