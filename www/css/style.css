@@ -266,4 +266,8 @@ footer.page-footer {
 
 #tag-cloud .chip{
     margin: 1%;
+    background-color: #2196F3;
+    color: white;
+    font-style: normal;
+    font-weight: 150;
 }
