@@ -1,7 +1,12 @@
 (function($){
   $(function(){
 
-  	var tags = "ALERT Amazon AWS APNs C C++ CSS Data Mining Firebase HTML Hyperspectral Image Analysis Janus WebRTC Gateway Java JavaScript Joomla JSP JsSIP Kamailio Machine Learning Material Design Node.js Northeastern University NVidia CUDA OpenCart PHP SIP sipML5 Software Engineering Twitter Bootstrap UML VoIP WebRTC WordPress XML".split(' ');
+  	var tags = 'Data Science,Aritifical Intelligence,AI,Machine Learning,Deep Learning,Computer Vision,Convolutional Neural Networks,'
+  		+ 'CNNs,Hyperspectral Image Analysis,Data Mining,Research, Computer Engineering,Software Engineering,Web Development,'
+  		+ 'Mobile App Development,Software Library Development,CUDA,SIP,VoIP,WebRTC,WebRTC Gateways,Java,Python,R,PHP,Javacript,HTML,CSS,Twitter Bootstrap,'
+  		+ 'Materialize,XML'
+
+	var tags = tags.split(',');
     var tagCloud = $('#tag-cloud');
 
   	tags.forEach(function(tag){
