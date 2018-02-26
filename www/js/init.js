@@ -2,9 +2,9 @@
   $(function(){
 
   	var tags = 'Data Science,Aritifical Intelligence,AI,Machine Learning,Deep Learning,Computer Vision,Convolutional Neural Networks,'
-  		+ 'CNNs,Hyperspectral Image Analysis,Data Mining,Research, Computer Engineering,Software Engineering,Web Development,'
-  		+ 'Mobile App Development,Software Library Development,CUDA,SIP,VoIP,WebRTC,WebRTC Gateways,Java,Python,R,PHP,Javacript,HTML,CSS,Twitter Bootstrap,'
-  		+ 'Materialize,XML'
+  		+ 'CNNs,Satellite Image Analysis,Hyperspectral Image Analysis,Data Mining,Research, Computer Engineering,Software Engineering,Web Development,'
+  		+ 'Mobile App Development,Software Library Development,SQL,NoSQL,CUDA,SIP,VoIP,WebRTC,WebRTC Gateways,Java,Python,R,PHP,Javacript,'
+  		+ 'HTML5,CSS,JSON,GeoJSON,XML,Material Design'
 
 	var tags = tags.split(',');
     var tagCloud = $('#skills-tag-cloud');
@@ -16,6 +16,27 @@
     $('.button-collapse').sideNav();
 	$('.scrollspy').scrollSpy();
 
+
+	// submit form
+
+	$('#contact-form-submit').on('click', function(){
+		$.ajax({
+			url: '/contact-brian',
+			method: 'post',
+			data: {
+				name: 'from yo self dude',
+				message: 'sup?'
+
+			},
+			success: function(data){
+				alert('sucecess');
+			},
+			error: function(error){
+				alert(error.message)
+			}
+		})
+
+	})
     /*** Animate word ***/
 
     //set animation timing
