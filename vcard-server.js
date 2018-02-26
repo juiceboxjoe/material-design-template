@@ -8,6 +8,8 @@ var http = require('http');
 
 var app = express();
 
+var emailSender = require('./routes/emailSender');
+
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
@@ -24,6 +26,8 @@ app.use('/fonts', express.static(__dirname + '/www/fonts'));
 app.use('/img', express.static(__dirname + '/www/img'));
 app.use('/js', express.static(__dirname + '/www/js'));
 app.use('/min', express.static(__dirname + '/www/min'));
+
+app.use('/' , emailSender);
 
 app.all('/*', function(req, res) {
   // Just send the index.html for other files to support HTML5Mode
