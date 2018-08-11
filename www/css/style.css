@@ -1,6 +1,6 @@
-.default_color{background-color: #2196F3 !important}
+.default_color{background-color: #4682B4 !important}
 
-.default_color_text{color: #2196F3 !important}
+.default_color_text{color: #4682B4 !important}
 
 .icon-block {
     padding: 0 15px;
@@ -13,7 +13,7 @@
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    background-color: #2196F3;
+    background-color: #4682B4;
 }
 
 #nav_f{
@@ -41,20 +41,20 @@
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
 
-.span_h2 {font-weight: 300;color: #2196F3;}
+.span_h2 {font-weight: 300;color: #4682B4;}
 
-.text_b{color: #2196F3;}
+.text_b{color: #4682B4;}
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
 .promo i {
-    color: #2196F3;
+    color: #4682B4;
     font-size: 7rem;
     display: block;
 }
-.card-content a {color: #2196F3;}
+.card-content a {color: #4682B4;}
 
-.card-content a:hover {color: #2196F3;}
+.card-content a:hover {color: #4682B4;}
 
 #work, #research{background: rgb(247, 247, 247);}
 
@@ -105,7 +105,7 @@ nav ul a {
 }
 
 .cd-headline.type .cd-words-wrapper.selected b {
-    color: #2196F3;
+    color: #4682B4;
 }
 
 .cd-headline.type b {
@@ -259,12 +259,16 @@ footer.page-footer {
 
 #skills-tag-cloud .chip{
     margin: 1%;
-    background-color: #2196F3;
+    background-color: #4682B4;
     color: white;
     font-style: normal;
     font-weight: 150;
 }
 
 .card .card-action a, .card .card-action a:hover {
-    color: #2196F3;
+    color: #4682B4;
+}
+
+.input-field .contact-form{
+    border-bottom: 1px solid #d3d3d3;
 }
