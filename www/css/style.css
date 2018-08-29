@@ -1,4 +1,4 @@
-.default_color{background-color: #4682B4 !important}
+.default_color{background-color: #78909C !important}
 
 .default_color_text{color: #4682B4 !important}
 
@@ -13,7 +13,7 @@
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    background-color: #4682B4;
+    background-color: #78909C;
 }
 
 #nav_f{
@@ -43,12 +43,12 @@
 
 .span_h2 {font-weight: 300;color: #4682B4;}
 
-.text_b{color: #4682B4;}
+.text_b{color: #455A64;}
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
 .promo i {
-    color: #4682B4;
+    color: #455A64;
     font-size: 7rem;
     display: block;
 }
@@ -105,7 +105,7 @@ nav ul a {
 }
 
 .cd-headline.type .cd-words-wrapper.selected b {
-    color: #4682B4;
+    color: #78909C;
 }
 
 .cd-headline.type b {
@@ -259,7 +259,7 @@ footer.page-footer {
 
 #skills-tag-cloud .chip{
     margin: 1%;
-    background-color: #4682B4;
+    background-color: #78909C;
     color: white;
     font-style: normal;
     font-weight: 150;
