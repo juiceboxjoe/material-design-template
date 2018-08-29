@@ -3,8 +3,8 @@
 
   	var tags = 'GEOINT, OSINT, Data Science,Aritifical Intelligence,AI,Machine Learning,Deep Learning,Computer Vision,Convolutional Neural Networks,'
   		+ 'CNNs,RNNs,Satellite Image Analysis,Hyperspectral Image Analysis,Spatiotemporal Analysis,Text Classification,Data Mining,Research,Computer Engineering,Software Engineering,Web Development,'
-  		+ 'Mobile App Development,Software Library Development,SQL,NoSQL,CUDA,SIP,VoIP,WebRTC,WebRTC Gateways,Javascript,Python,Java,PHP,'
-  		+ 'HTML5,CSS,JSON,GeoJSON,XML,GDAL,Pandas,Geopandas,Tensorflow,Keras,Caffe,NVIDIA DIGITS'
+  		+ 'Mobile App Development,Software Library Development,SQL,NoSQL,SIP,VoIP,WebRTC,WebRTC Gateways,Javascript,Python,Java,PHP,'
+  		+ 'HTML5,CSS,JSON,GeoJSON,XML,GDAL,Pandas,Geopandas,Tensorflow,Keras,Caffe,NVIDIA DIGITS,CUDA,JIRA,Bitbucket,GitHub,Scrum,Agile'
 
 	var tags = tags.split(',');
     var tagCloud = $('#skills-tag-cloud');
